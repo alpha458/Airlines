@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Airline"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@color/white"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="#CCCC00"
+        android:text="AIRLINES"
+        android:textSize="17sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:fontFamily="monospace"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:src="@drawable/airline1"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight=".05"
+            android:background="#FFFFFF"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:background="@color/white"
+                ></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="#CCCC00"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:background="@color/white"
+                ></View>
+        </LinearLayout>
+
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8.6"
+        android:id="@+id/AirlineB1"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="#FFFAFA"
+            android:text=" Pakistan International Airline"
+            android:textSize="15dp"
+            android:textColor="#003300"
+            android:drawableRight="@drawable/next4"
+            android:gravity="center_vertical"
+
+
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:weightSum=".5"
+
+        >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:background="#CCCC00"
+
+            ></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:src="@drawable/airline1"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight=".05"
+            android:background="#FFFFFF"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:background="@color/white"
+                ></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="#CCCC00"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:background="@color/white"
+                ></View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/AirlineB2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.6"
+            android:background="@color/white"
+            android:foreground="?attr/selectableItemBackground"
+            android:text=" emirates airline"
+            android:textSize="15dp"
+            android:textColor="#003300"
+            android:drawableRight="@drawable/next4"
+
+            android:gravity="center_vertical"
+
+
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:weightSum=".5"
+
+        >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:background="#CCCC00"
+
+            ></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:src="@drawable/airline1"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight=".05"
+            android:background="#FFFFFF"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:background="@color/white"
+                ></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="#CCCC00"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:background="@color/white"
+                ></View>
+        </LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.6"
+            android:id="@+id/AirlineB3"
+            android:background="@color/white"
+            android:text=" Oman Airline"
+            android:textSize="15dp"
+            android:textColor="#003300"
+            android:foreground="?attr/selectableItemBackground"
+
+            android:gravity="center_vertical"
+
+
+            android:drawableRight="@drawable/next4"
+            tools:ignore="RtlCompat"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:weightSum=".5"
+
+        >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:background="#CCCC00"
+
+            ></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:src="@drawable/airline1"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight=".05"
+            android:background="#FFFFFF"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:background="@color/white"
+                ></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="#CCCC00"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:background="@color/white"
+                ></View>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/AirlineB4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.82"
+            android:text="qatar airline"
+            android:background="@color/white"
+
+            ></Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:weightSum=".5"
+
+        >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:background="#CCCC00"
+
+            ></View>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="10"
+        >
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.3"
+            android:background="@color/white"
+            android:src="@drawable/airline1"
+            ></ImageView>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2"
+            android:layout_weight=".05"
+            android:background="#FFFFFF"
+
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".3"
+                android:background="@color/white"
+                ></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:background="#CCCC00"></View>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".4"
+                android:background="@color/white"
+                ></View>
+        </LinearLayout>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="8.82"
+            android:id="@+id/AirlineB5"
+            android:background="@color/white"
+
+
+            ></Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight=".02"
+        android:weightSum=".5"
+
+        >
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".48"
+            android:background="#CCCC00"
+
+            ></View>
+    </LinearLayout>
+
+</LinearLayout>
